@@ -1,0 +1,24 @@
+       Problem solving patterns
+
+1. Understand the problem (Ask interviewer)
+1.a Can you restate the propblem with your own words?
+1.b What are the inputs that go into the problem?
+1.c What are the outputs that should come from the solution to the problem?
+1.d Do i have enought information to solve the problem? 
+1.e How should i label the important pieces of data that are a part of the problem?
+
+
+Ex: Write a function which takes two numbers ansd returns their sum
+
+
+
+a Can you restate the propblem with your own words?
+Implement addition
+
+b What are the inputs that go into the problem?
+// int // float // double // long
+c What are the outputs that should come from the solution to the problem?
+output // int //float etc. 
+d Do i have enought information to solve the problem?
+ 
+e How should i label the important pieces of data that are a part of the problem?
