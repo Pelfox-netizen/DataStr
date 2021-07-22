@@ -27,7 +27,7 @@ function search(arr, val) {
     if (currentElement < val) {
       min = middle + 1;
     } else if (currentElement > val) {
-      min = middle - 1;
+      max = middle - 1;
     } else {
       return middle;
     }
