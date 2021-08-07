@@ -12,6 +12,12 @@ class HashTable {
     }
     return hash;
   }
+  _countFre(S) {
+    for (let c = a; c <= z; ++c) {
+      let frequency = 0;
+      for (let i = 0; i < S.length(); ++i) if (S[i] == c) frequency++;
+    }
+  }
 }
 
 const hashTable = new HashTable();
