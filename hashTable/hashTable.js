@@ -18,7 +18,25 @@ class HashTable {
       for (let i = 0; i < S.length(); ++i) if (S[i] == c) frequency++;
     }
   }
+
+  _remove = function(key){
+    
+    let inikey = key;
+    let hashed = hash(key);
+    if(hashed in this.collection){
+
+        delete this.collection[hashed][inikey];
+        if(Object.keys(this.collection[hashed]).length < 1){
+      delete this.collection[hashed];
+    }
+           
+    } else {
+      console.log('is not');
+      return;
+    }
 }
+}
+
 
 const hashTable = new HashTable();
 console.log(hashTable);
