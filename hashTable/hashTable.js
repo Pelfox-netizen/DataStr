@@ -40,3 +40,6 @@ class HashTable {
 
 const hashTable = new HashTable();
 console.log(hashTable);
+console.log(hashTable1);
+console.log(hashTable2);
+
